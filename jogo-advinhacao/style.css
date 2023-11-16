@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  font-size: 62.5%;
+}
+body{
+  background: linear-gradient(288deg, #C2E9FB 0%, #A1C4FD 100%);
+  display: grid;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+main{
+  display: grid;
+  border-radius: 6px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+  justify-items: center;
+  
+}
+/*screen*/
+
+.screenOne , .screenTwo{
+  text-align: center;
+  width: min(428px);
+  padding: 48px 64px 64px;
+  background: #FFF; 
+  border-radius: 6px;
+  
+  
+}
+
+.screenOne h1, .screenTwo h1{
+  color: #34355B;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.screenTwo h1{
+  margin-bottom: 33px;
+}
+.screenOne p , .screenTwo p{
+  color: rgba(52, 53, 91, 0.80);
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  margin-bottom: 48px;
+}
+#errouTentativa{
+  margin-bottom: 24px;
+  color: red;
+}
+.screenOne form{
+  display: flex;
+  justify-content: center;
+  
+}
+.screenOne form input {
+  width: 64px;
+  padding: 16px;
+  border-radius: 4px 0px 0px 4px;
+  background: #DCE2E9;
+  border: none;
+}
+.screenOne button, .screenTwo button{
+  padding: 16px;
+  border-radius: 0px 4px 4px 0px;
+  background: #7879F1;
+  color:#FFF;
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+  cursor: pointer;
+  transition: background .3s;
+}
+.screenOne button:hover {
+  background: #3d3d94;
+}
+.screenTwo button:hover{
+  background: #3d3d94;
+}
+.screenTwo button{
+  border-radius: 4px;
+}
+.hide{
+  display: none ;
+}
